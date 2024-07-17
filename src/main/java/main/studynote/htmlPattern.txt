@@ -1,0 +1,36 @@
+<p></p>|<pre></pre>|<strong></strong>|<br>|<h1></h1>|<h2></h2>|<h3></h3>|<h4></h4>|<h5></h5>|<h6></h6>|<!– –>|<em></em>|<b></b>|<i></i>|<u></u>|<abbr title=""></abbr>|<q></q>|<small></small>|<code></code>|<sub></sub>|<sup></sup>|<!doctype html><html lang="en-US"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width" /><title></title>
+	<style>
+		table, th, td {
+ 			border: 1px solid;
+			border-collapse: collapse;
+		}
+		br { display: block; 
+			content: ""; /* clears default height */
+			margin-top: 10px; 
+		}
+		pre {font-family: "Times New Roman"; white-space: pre-wrap;}
+		code{white-space: pre;}
+		strong {color:red;}
+		abbr {color:#199B00; font-style: italic;}
+	</style>
+  </head><body>
+
+</body></html>|<table >
+    <tr>
+        <th></th>
+        <th></th>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+</table>|        <th></th>|        <td></td>|    <tr>
+
+    </tr>|&#60;|&#62;|<ul>
+    <li></li>
+    <li></li>
+</ul>|<ol>
+    <li></li>
+    <li></li>
+</ol>|    <li></li>|<div></div>|    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>|<a href=""></a>|<blockquote></blockquote>|<img src="">|

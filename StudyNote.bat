@@ -1,0 +1,1 @@
+java -jar "D:\Program Files\Intellij\My Program\StudyNote\target\StudyNote-1.0-SNAPSHOT-shaded.jar"

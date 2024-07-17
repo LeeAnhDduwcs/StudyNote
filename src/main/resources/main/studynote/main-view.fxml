@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="613.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.studynote.ControlMainView">
+   <children>
+      <ListView fx:id="subjectList" layoutX="12.0" layoutY="2.0" onMouseClicked="#chooseSubject" orientation="HORIZONTAL" prefHeight="44.0" prefWidth="542.0" style="-fx-font-size: 15;" />
+      <ListView fx:id="topicList" layoutX="12.0" layoutY="72.0" onMouseClicked="#chooseTopic" prefHeight="190.0" prefWidth="215.0" style="-fx-font-size: 13;" />
+      <HBox layoutX="562.0" layoutY="13.0">
+         <children>
+            <Button mnemonicParsing="false" onMouseClicked="#createNewSubject" text="New" />
+            <Button mnemonicParsing="false" onMouseClicked="#deleteSubject" text="Delete" />
+            <Button mnemonicParsing="false" onMouseClicked="#renameSubject" text="Rename" />
+         </children>
+      </HBox>
+      <HBox layoutX="45.0" layoutY="47.0">
+         <children>
+            <Button mnemonicParsing="false" onMouseClicked="#createNewTopic" text="New" />
+            <Button mnemonicParsing="false" onMouseClicked="#deleteTopic" text="Delete" />
+            <Button mnemonicParsing="false" onMouseClicked="#renameTopic" text="Rename" />
+         </children>
+      </HBox>
+      <TabPane fx:id="contentTabPane" layoutX="230.0" layoutY="47.0" prefHeight="554.0" prefWidth="482.0" style="-fx-border-style: solid;" />
+      <WebView fx:id="contentWeb" layoutX="721.0" layoutY="17.0" prefHeight="586.0" prefWidth="562.0" />
+      <Button layoutX="576.0" layoutY="34.0" mnemonicParsing="false" onMouseClicked="#showAndSaveTopicContent" text="Show and Save" />
+      <ListView fx:id="htmlList" layoutX="12.0" layoutY="287.0" onMouseClicked="#chooseHTML" prefHeight="312.0" prefWidth="215.0" />
+      <HBox layoutX="45.0" layoutY="262.0">
+         <children>
+            <Button mnemonicParsing="false" onMouseClicked="#createNewHTML" text="New" />
+            <Button mnemonicParsing="false" onMouseClicked="#deleteHTML" text="Delete" />
+            <Button mnemonicParsing="false" onMouseClicked="#renameHTML" text="Rename" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
